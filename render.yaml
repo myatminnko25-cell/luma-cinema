@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: luma-cinema
+    env: python
+    buildCommand: ""
+    startCommand: "python3 server.py"
+    envVars:
+      - key: LUMA_HOST
+        value: 0.0.0.0

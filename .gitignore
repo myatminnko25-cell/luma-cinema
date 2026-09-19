@@ -2,3 +2,6 @@ work/
 outputs/
 .sites-runtime/
 .DS_Store
+__pycache__/
+*.pyc
+*.zip
